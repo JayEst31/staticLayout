@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("../staticLayout/assets/StarWars\ Wallpaper.jpeg");
+}
+
+header{
+
+    color: white;
+    background-color: black;
+    top: 0%;
+    height: 150px;
+    width: 100%;
+    left: 0px;
+    background-image: url("../staticLayout/assets/StarWars\ Wallpaper.jpeg");
+    position: fixed;
+}
+
+.logo{
+    font-size: 25px;
+    position: fixed;
+    left: 40%;
+    top: 25px;
+}
+
+
+
+nav{
+    box-sizing: border-box;
+    font-family: DIN, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 120px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.nav_links{
+    display: inline;
+    width: 100%;
+    height: 50px;
+    border: solid gray .5px;
+}
+
+.nav_links li{
+    display: inline;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.nav_links li a{
+    color: white;
+
+}
+
+
+main{
+   position: static;
+    margin: 12% 1% 1% 0%;
+    padding: 0%;
+    top: 300px;
+}
+
+.subtext{
+    font-family: DIN, Helvetica, Arial, sans-serif;
+    font-size: .8em;
+    font-weight: 200;
+    letter-spacing: .8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    left: 25px;
+}
+
+.login{
+    font-family: DIN, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: right;
+    right: 10px;
+    top: -25px;
+    
+}
+#starwars{
+    font-size: DIN, Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: green;
+    text-align: right;
+}
+.imageTwo{
+    padding: 5%;
+    margin: 0%;
+}
+.icon_holder{
+    left: 20px;
+}
+.icon_holder li{
+    display: inline-table;
+    position: relative;
+    height: 75px;
+    width: 75px;
+    padding: 20px;
+}
